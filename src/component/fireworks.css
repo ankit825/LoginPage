@@ -1,0 +1,33 @@
+@keyframes firework-seed-animation {
+  0% {
+    background-color: #ff8426;
+  }
+  25% {
+    background-color: #fffc84;
+  }
+  100% {
+    background-color: #ff8426;
+  }
+}
+@-webkit-keyframes firework-seed-animation {
+  0% {
+    background-color: #ff8426;
+  }
+  25% {
+    background-color: #fffc84;
+  }
+  100% {
+    background-color: #ff8426;
+  }
+}
+.fireWorkSeed {
+  z-index: 999;
+  position: absolute;
+  height: 5px;
+  width: 5px;
+  border-radius: 5px;
+  animation-name: firework-seed-animation;
+  animation-timing-function: linear;
+  animation-duration: 0.5s;
+  animation-iteration-count: infinite;
+}
